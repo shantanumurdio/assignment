@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+}
+.logo{
+    width: 50%; 
+}
+.info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.info>div{
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%; 
+}
+
+.info>div:hover{
+    border-top: 3px solid darkcyan;
+    color: darkgrey;
+}
+.info>div a{
+    text-decoration: none;
+    font-size: 20px;
+    display:inline-block;
+}
+#abt-sub{
+    position: absolute;
+    top: 90%; 
+    left: 70%;
+    display: none;
+}
+ #abt:hover + span{
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 8rem;
+    width: 15%;
+    padding:0% 2%;
+    border: 1px solid black;
+    background-color: white;
+}
+.section1{
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+.description{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.description>div{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.photo{
+    width: 50%;
+}
+.section2{
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 button{
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 10px;
+}
+.section2 button:hover{
+    color: white;
+}
+footer{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div{
+    text-align: center;
+    color: wheat;
+}
+
