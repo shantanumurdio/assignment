@@ -29,8 +29,8 @@ nav{
 }
 
 .info>div:hover{
-    border-top: 3px solid darkcyan;
-    color: darkgrey;
+    border-top: 3px solid cyan;
+    color: white;
 }
 .info>div a{
     text-decoration: none;
