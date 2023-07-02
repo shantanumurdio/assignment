@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+
+}
+
+* ul{
+    list-style: none;
+}
+
+/* 
+.container{
+    max-width: 1300px;
+    margin: auto;
+} */
+header{
+    background: url("./header-background.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+
+}
+
+.navbarContainer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbarContainer ul li a:hover{
+    border-bottom: 4px solid white;
+    padding: 10px;
+}
+
+.navbarContainer{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+}
+
+.logoContainer{
+    width: 20%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer img{
+    width: 40%;
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    /* border: 2px solid red; */
+    margin: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.mainHeaderContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+
+.mainHeaderContent h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.mainHeaderContent p{
+    color: white;
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.mainHeaderContent button{
+    padding: .8rem 1.2rem;
+    background-color: #14BF98;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+section{
+    height: 130vh;
+    border: 2px solid red;
+    padding: 7rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperDiv{
+    height: 80%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.lowerDiv{
+    height: 50%;
+    /* border: 2px solid green; */
+}
+
+.leftContent{
+    width: 40%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+
+}
+
+.rightImgContainer{
+     width: 58%;
+     /* border: 2px solid green; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.rightImgContainer img{
+    width: 80%;
+}
+
+.intro{
+    color: #14BF98;
+    margin-bottom: 1rem;
+
+}
+
+.leftContent h1{
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.leftContent p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.leftContent blockquote{
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.ceo{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.lowerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerDivCard1{
+    /* border: 2px solid red; */
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lowerDivCard1 span{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14BF98;
+    color: white;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upperContainer{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upperContainer p{
+    color: #14BF98;
+    font-size: .8rem;
+    padding-bottom: 1rem;
+}
+
+.upperContainer h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.lowerContainer{
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    position: relative;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: .5px solid grey; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+/* .card .imageContainer{
+    height: 80%;
+    border: 2px solid blue;
+} */
+
+.card .imageContainer img{
+    width: 100%; 
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contentContainer{
+    /* border: 2px solid blue; */
+    height: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.contentContainer h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contentContainer p{
+    text-align: center;
+
+}
+.contentContainer ul{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contentContainer ul li{
+    color: black;
+    margin: 1rem 0;
+}
+
+.cardContainer button{
+    width: 30%;
+    position: absolute;
+    border: none;
+    height: 10%;
+
+    outline: none;
+    background-color: #14BF98;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    left: calc(50% - 15%);
+    bottom: calc(0% - 5%);
+}
+
+
+
+
+.section4{
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.div1 , .div2 , .div3, .div4{
+    width: 50%;
+    height: 50%;
+    /* border: 2px solid green; */
+}
+
+.div1 img, .div4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.div3{
+    padding: 5rem 3rem;
+}
+
+.div3 h1{
+    font-size: 2.2rem;
+    margin-bottom: 1.625rem;
+
+}
+
+.div3 ul{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.div3 ul li{
+    color: black;
+    text-transform: capitalize;
+}
+
+.div3 ul li span{
+    display: block;
+    color: #14BF98;
+    font-weight: 600;
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
+
+.div3 ul li:hover{
+    cursor: pointer;
+}
+
+.div3 ul li:hover .showMe{
+    display: block;
+}
+
+.showMe{
+    display: none;
+    font-size: .9rem;
+}
+
+.testimonials{
+    border: 2px solid blue;
+    height: 90vh;
+}
+
+.testimonialText{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+
+.testimonialText h1{
+    font-size: 2.1rem;
+    margin-bottom: .5rem;
+}
+
+.testimonialCards{
+    /* border: 2px solid yellow; */
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    margin-top: 2rem;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonialCard{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonialCard .imgContainer{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+}
+
+.testimonialCard .imgContainer img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.testimonialCard .contentContainer{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonialCard .contentContainer p{
+    margin-bottom: 1rem;
+}
+
+
+.formSection{
+    border: 2px solid black;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainco 
