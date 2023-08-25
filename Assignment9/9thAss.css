@@ -1,0 +1,22 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top:  5rem;
+}
+
+#styledDiv {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  #controls {
+    margin-top: 20px;
+  }
